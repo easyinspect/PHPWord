@@ -772,6 +772,8 @@ class TemplateProcessor
                 );
             }
         }
+        unset($blockClone);
+        unset($matches);
         return $xmlBlock;
     }
 
